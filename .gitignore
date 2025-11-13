@@ -1,0 +1,23 @@
+# === OpenTofu / Terraform ===
+.tofu/
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# === Fichiers sensibles ===
+*.tfvars
+*.tfvars.json
+secret.txt
+
+# === Système / éditeur ===
+.DS_Store
+*.log
+*.tmp
+*.bak
+.idea/
+.vscode/
+
+# === MinIO data ===
+minio-data/
